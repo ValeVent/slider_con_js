@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- CONTENITORE ESTERNO DELLE SLIDE  -->   
+<div class="container-slideshow">
+
+<!-- SINGOLE SLIDE  --> 
+<div class="single-slide fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="media/pexels-jamaal-hutchinson-675024091-18696933 1.png" style="width:100%">
+<!--     <div class="text">Prima slide</div> -->
+</div> 
+
+<div class="single-slide fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="media/pexels-petr-slovacek-770136941-18925511 1.png" style="width:100%">
+<!--     <div class="text">Seconda slide</div> -->
+</div>
+
+<div class="single-slide fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="media/pexels-pixabay-206359 1.png" style="width:100%">
+<!--     <div class="text">Terza slide</div> -->
+</div>
+
+<div class="single-slide fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="media/pexels-vito-giaccari-26039644-11065778 1.png" style="width:100%">
+<!--     <div class="text">Quarta slide</div> -->
+</div>
+
+  <!-- PULSANTI SLIDER -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- DOTS -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div> 
+
+<script src="functions.js"></script>    
+</body>
+</html>
